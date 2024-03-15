@@ -2,7 +2,7 @@
 
 void process_attach()
 {
-	Memory::WriteMemory<std::uint16_t>(0x462F16, 0);
+	Memory::WriteMemory<std::uint16_t>(0x462F16, 0xEB29);
 }
 
 BOOL APIENTRY DllMain(HMODULE hModule,
